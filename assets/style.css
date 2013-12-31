@@ -69,7 +69,7 @@ header {
 	top:10px;
 	z-index:10;
 	background-color:#fff;
-	background-image:url(../_images/inorganik-produce.png);
+	background-image:url(../images/inorganik-produce.png);
 	background-repeat:no-repeat;
 	background-position:right center;
 }
@@ -84,6 +84,7 @@ a {
 	text-decoration:none;
 	cursor:pointer;
 }
+a.block {
 a.block {
 	width:100%;
 	height:100%;
