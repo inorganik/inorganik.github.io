@@ -227,6 +227,31 @@ ol ol ol {
 	border-bottom:0;
 }
 
+/* ---------------- uls ----------------- */
+
+ul.bigLinks {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+ul.bigLinks li {
+	height:161px;
+	position:relative;
+}
+ul.bigLinks a {
+	position:absolute;
+	-webkit-transform-origin:left center;
+	-moz-transform-origin:left center;
+	transform-origin:left center;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	transform: scale(1);
+}
+ul.bigLinks a:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+}
 
 /* ---------------- structure ----------------- */
 
