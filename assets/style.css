@@ -130,7 +130,7 @@ h1.jumbo {
 	color:#4d63bc;
 }
 h1.kindaBig {
-	font-size:8em;
+	font-size:6em;
 	margin:0;
 	color:#4d63bc;
 }
@@ -235,7 +235,7 @@ ul.bigLinks {
 	padding:0;
 }
 ul.bigLinks li {
-	height:161px;
+	height:120px;
 	position:relative;
 }
 ul.bigLinks a {
