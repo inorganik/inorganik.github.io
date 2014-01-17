@@ -309,6 +309,11 @@ section:after,
 	max-width:100%;
 	height:auto;
 }
+.code-contain {
+	padding:10px;
+	background:rgba(77, 99, 188, 0.1);
+	overflow: hidden;
+}
 .full { width:100% }
 .fourFifths { width:80% }
 .threeQuarters { width:75% }
@@ -367,7 +372,7 @@ form {
 
 .inlineLabel {
 	display:inline-block;
-	margin:6px 0 0 0;
+	margin:3px 0 0 0;
 }
 input {
 	font-size:1em;
