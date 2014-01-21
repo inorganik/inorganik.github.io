@@ -26,11 +26,9 @@ body {
 }
 #wrap {
 	width:981px;
-	min-height:100%;
-	height:auto !important;
-	height:100%;
 	margin:0 auto -25px auto;
 	text-align: left;
+	overflow:hidden;
 }
 #footer {
 	text-align: left;
