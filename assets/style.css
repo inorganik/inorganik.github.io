@@ -320,9 +320,15 @@ section:after,
 }
 .code-contain {
 	padding:10px;
-	background:rgba(77, 99, 188, 0.1);
 	overflow: hidden;
 }
+.code-contain.indigo {
+	background:rgba(77, 99, 188, 0.1);
+}
+.code-contain.lime {
+	background-color:#E3FFB6;
+}
+
 .full { width:100% }
 .fourFifths { width:80% }
 .threeQuarters { width:75% }
