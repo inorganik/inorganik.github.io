@@ -237,6 +237,19 @@ ol ol ol {
 .borderBottom-phone {
 	border-bottom:0;
 }
+.forkMe {
+	width:149px;
+	height:149px;
+	position:fixed;
+	bottom:0;
+	right:0;
+	z-index:100;
+}
+.forkMe img {
+	border:0;
+	width:100%;
+	height:100%;
+}
 
 /* ---------------- uls ----------------- */
 
@@ -476,6 +489,7 @@ input:-moz-placeholder { color:#ccc; }
 	h2 { font-size:1.6em }
 	h3 { font-size:1.2em }
 	h4 { font-size:1em }
+	h6 { font-weight:400 }
 	p, label { font-size:.9em }
 
 	h1.jumbo {
@@ -483,5 +497,9 @@ input:-moz-placeholder { color:#ccc; }
 	}
 	h1.kindaBig {
 		font-size:2em;
+	}
+	.forkMe {
+		width:100px;
+		height:100px;
 	}
 }
