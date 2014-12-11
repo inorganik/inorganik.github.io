@@ -379,6 +379,7 @@ section:after,
 .inlineLeft {
 	float:left;
 	display:inline;
+	margin-bottom:10px;
 }
 
 .leftToCenter { text-align:left }
@@ -400,7 +401,7 @@ form {
 	overflow:hidden;
 	position:relative;
 	text-align:left;
-	padding:20px 0;
+	padding:20px 0 10px 0;
 }
 
 
@@ -424,6 +425,7 @@ input[type=button] {
 	border:0;
 	outline:none;
 	cursor:pointer;
+	-webkit-appearance: none;
 }
 input[type=button]:active {
 	background-color:#669f1b;
