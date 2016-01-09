@@ -418,6 +418,7 @@ input {
 	padding:3px 8px;
 }
 input[type=button] {
+	display:inline-block;
 	width:auto;
 	padding:5px 20px;
 	color:white;
