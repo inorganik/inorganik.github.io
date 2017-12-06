@@ -251,6 +251,19 @@ ol ol ol {
 	width:100%;
 	height:100%;
 }
+.emojiButton {
+	padding: 0;
+	margin: 0 5px;
+	cursor: pointer;
+	border: none;
+	-webkit-appearance: none;
+	background: none;
+	font-size: 1.5em;
+	line-height: 1;
+}
+.inlineLeft.emojiButton {
+	margin: 0 5px;
+}
 
 /* ---------------- uls ----------------- */
 
