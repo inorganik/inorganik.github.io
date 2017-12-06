@@ -287,7 +287,6 @@ section {
 	display:block;
 	clear:left;
 	position:relative;
-	width:100%;
 	border-bottom:1px #C4C4C4 solid;
 }
 section.gray-bkgd {
@@ -409,13 +408,14 @@ form {
 	display:inline-block;
 	margin:3px 0 0 0;
 }
-input {
+input, textarea {
 	font-size:1em;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	border-radius:5px;
 	border:1px #C4C4C4 solid;
 	padding:3px 8px;
+	box-sizing: border-box;
 }
 input[type=button] {
 	display:inline-block;
@@ -446,7 +446,6 @@ input[type=button]:active {
 
 ::-webkit-input-placeholder { 
 	color:#ccc; 
-	font:400 1.0em/1.2em Helvetica, Arial, sans-serif;
 }
 ::-moz-placeholder { color:#ccc; } 
 input:-moz-placeholder { color:#ccc; }
