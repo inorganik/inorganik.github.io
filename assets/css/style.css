@@ -52,7 +52,6 @@ header {
 	margin-top:40px;
 	text-align:left; 
 	display:block;
-	background-color:#fff;
 	position:relative;
 	overflow:hidden;
 }
@@ -72,7 +71,7 @@ header {
 	top:10px;
 	z-index:10;
 	background-color:#fff;
-	background-image:url(../img/inorganik-produce.png);
+	background-image:url(../img/inorganik-produce.svg);
 	background-repeat:no-repeat;
 	background-position:right center;
 	background-size:95% auto;
@@ -84,8 +83,11 @@ header {
 	top:10px;
 	left:0;
 	z-index:10;
-	background: url(../img/github.png) no-repeat;
-	background-size:100% auto;
+	background-image: url(../img/github.svg);
+	background-repeat:no-repeat;
+	background-size:95% auto;
+	border-radius: 24px;
+	background-color: white;
 }
 
 /* ----------- elements ------------- */
@@ -357,7 +359,7 @@ section:after,
 	background:rgba(77, 99, 188, 0.1);
 }
 .code-contain.lime {
-	background-color:#F4FFE2;
+	background:rgba(139, 197, 63, 0.1);
 }
 
 .full { width:100% }
@@ -583,4 +585,51 @@ input:-moz-placeholder { color:#ccc; }
 		width:100px;
 		height:100px;
 	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color:#a9a9a9;
+		background:#1c1c1c;
+	}
+	#footer {
+		color:#C4C4C4;
+	}
+	#github {
+		background-color: #1c1c1c;
+	}
+	h1.jumbo, h1.kindaBig, h6 {
+		color:#6e90da;
+	}
+	a {
+		color:#6e90da;
+	}
+	.leaderLine {
+		color:#6e90da;
+	}
+	#logo {
+		background-color:#1c1c1c;
+	}
+	#wrap {
+		background-color:#1c1c1c;
+	}
+
+	.indigo { color:#6e90da }
+	.lime {	color:#8cc448 }
+	.gray {	color:#bfbfbf }
+	
+	input, textarea {
+		border:1px #4f4f4f solid;
+	}
+	input[type=button] {
+		color:white;
+		background-color:#8BC53F;
+	}
+
+	::-webkit-input-placeholder { 
+		color:#4f4f4f; 
+	}
+	::-moz-placeholder { color:#4f4f4f; } 
+	input:-moz-placeholder { color:#4f4f4f; }
+
 }
