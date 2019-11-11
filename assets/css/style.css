@@ -613,17 +613,26 @@ input:-moz-placeholder { color:#ccc; }
 	#wrap {
 		background-color:#1c1c1c;
 	}
+	section {
+		border-bottom:1px #4f4f4f solid;
+	}
+	section.gray-bkgd {
+		background-color:#4f4f4f;
+	}
 
 	.indigo { color:#6e90da }
 	.lime {	color:#8cc448 }
 	.gray {	color:#bfbfbf }
 	
 	input, textarea {
-		border:1px #4f4f4f solid;
+		border:1px #C4C4C4 solid;
+		background: #4f4f4f;
+		color: white;
 	}
 	input[type=button] {
 		color:white;
 		background-color:#8BC53F;
+		color:#303030;
 	}
 
 	::-webkit-input-placeholder { 
